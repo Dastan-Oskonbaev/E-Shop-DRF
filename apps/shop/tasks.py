@@ -6,7 +6,7 @@ from django.http import HttpResponse
 def send_email_task():
     send_mail(
         'test',  # Тема письма
-        'Privet.',  # Тело письма
+        'Privet......',  # Тело письма
         'dastiw1910@gmail.com',  # Адрес отправителя
         ['edilbekova_aiperi@mail.ru'],  # Список адресов получателей
         fail_silently=False,  # Если установлено значение True, ошибки отправки будут игнорироваться
